@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 8080;
 const cors = require("cors");
-const corsOptions = require(corsOptions);
 const { logger } = require("./middleware/logger");
 const errorHandler = require("./middleware/errorHandler");
 const mongoose = require("mongoose");
